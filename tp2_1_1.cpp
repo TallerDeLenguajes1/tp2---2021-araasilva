@@ -6,13 +6,12 @@ double mt[N][M];
 
 int main(){
     for(f = 0;f<N; f++){
-        for(f = 0;f<N; f++){
-            printf("%lf ", mt[f][c]);
+        for(c = 0;c<M; c++){
+            printf("%.1lf ", mt[f][c]);
         }
         printf("\n");
     }
     getchar();
-    //kasjgsf
     return 0;
 }
 
